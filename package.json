@@ -1,0 +1,27 @@
+{
+  "name": "11ty-contentful",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patternli/11ty-contentful.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patternli/11ty-contentful/issues"
+  },
+  "homepage": "https://github.com/patternli/11ty-contentful#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "@contentful/rich-text-html-renderer": "^15.13.1",
+    "contentful": "^9.1.32",
+    "dotenv": "^16.0.1"
+  }
+}
