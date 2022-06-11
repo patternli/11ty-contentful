@@ -11,7 +11,7 @@ eleventyComputed:
 
 <main>
     <h1>{{ post.fields.title }}</h1>
-    <p>Published on: <time>{{ post.fields.publishDate }}</time></p>
+    <p>Published on: <time>{{ post.fields.date }}</time></p>
     <img src="{{ post.fields.image.fields.file.url }}?w=400" />
     <div>{{ post.fields.body | renderRichTextAsHtml | safe }}</div>
 </main>
