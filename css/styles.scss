@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Gentium+Plus&display=swap');
+
+body {
+    background-color: pink; 
+    margin: 20vh;
+    margin-left: 20vh;
+    height: 100%;
+    font-family: 'Gentium Plus', serif;
+    font-size: 1rem;
+    background-image: url(/assets/img/jam.png);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-attachment: fixed;
+    background-position: 100% 100%;
+}
+
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+  .page-footer {
+      border-top: .5px solid gray;
+      margin-top: 5vh;
+      padding-top: 2vh;
+
+  }

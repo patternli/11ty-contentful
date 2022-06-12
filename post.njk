@@ -11,10 +11,15 @@ eleventyComputed:
 
 <main>
     <h1>{{ post.fields.title }}</h1>
-    <p>Published on: <time>{{ post.fields.date }}</time></p>
-    <img src="{{ post.fields.image.fields.file.url }}?w=400" />
     <div>{{ post.fields.body | renderRichTextAsHtml | safe }}</div>
+    <img src="{{ post.fields.image.fields.file.url }}?w=400" />
+    <p>Published on: <time>{{ post.fields.date }}</time></p>
+    
 </main>
 
-
-<a href="/"> Return Home</a>
+<div class="page-footer">
+    <a href="/"> 
+        <span class="material-symbols-outlined">arrow_back_ios</span> 
+        Return Home
+    </a>
+</div>

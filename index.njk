@@ -2,12 +2,11 @@
 layout: layout.html
 ---
 
-<main>
+<main class="home">
     <h1>11ty + Contentful</h1>
     {% for post in posts %}
 	<article>
-		<h1>{{ post.fields.title }}</h1>
-		<time>{{ post.fields.date }}</time>
+		<h2>{{ post.fields.title }}</h2>
 		<a href="/posts/{{ post.fields.title | slug }}">Read the post</a>
 	</article>
 {% endfor %}

@@ -22,6 +22,7 @@
     "@11ty/eleventy": "^1.0.1",
     "@contentful/rich-text-html-renderer": "^15.13.1",
     "contentful": "^9.1.32",
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "sass": "^1.52.3"
   }
 }
